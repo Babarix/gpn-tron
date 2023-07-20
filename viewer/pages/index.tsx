@@ -16,19 +16,8 @@ function BrokenScreenFun() {
   return (
     <>
       {/* Broken screen placeholder */}
-      <div
-        style={{
-          zIndex: 999,
-          position: 'absolute',
-          background: 'gray',
-          top: 'calc(100%/4)',
-          left: 'calc(100%/4)',
-          width: 'calc(100%/4)',
-          height: 'calc(100%/4)'
-        }}
-      ></div>
       <img
-        src="https://i.ibb.co/QJxSCNk/a.jpg"
+        src="https://wiki.vspace.one/lib/exe/fetch.php?cache=&media=verein:logo_vspaceone.png"
         style={{
           zIndex: 999,
           position: 'absolute',
