@@ -18,19 +18,6 @@ function BrokenScreenFun() {
       {/* Broken screen placeholder */}
       <div>
       <img
-        src="https://fairydust.reisen/logo.svg"
-        style={{
-          zIndex: 999,
-          position: 'absolute',
-          top: 0,
-          left: 'calc(100%/4)',
-          width: 'calc(100%/4)',
-          height: 'calc(100%/4)'
-        }}
-      />
-      </div>
-      <div>
-      <img
         src="https://wiki.vspace.one/lib/exe/fetch.php?cache=&media=verein:logo_vspaceone.png"
         style={{
           zIndex: 999,
@@ -105,7 +92,7 @@ export default function Home() {
   if (!active || !gameService.game) return null
   return (
     <>
-      <BrokenScreenFun />
+      {/* <BrokenScreenFun /> */}
       <div style={{ height: '100%', width: '100%', position: 'relative' }}>
         {/* Infobox */}
         <div style={{
@@ -126,6 +113,7 @@ export default function Home() {
           Original for GPN21 by freehuntx: https://github.com/freehuntx/gpn-tron
           <br />
           Modifyed & Hosted for IGER2023 by Nikolai. Conntact for Questions ^^
+          <br />
           <br />
           Matrix: @nikolai.vspace.one:matrix.org
           <br />
