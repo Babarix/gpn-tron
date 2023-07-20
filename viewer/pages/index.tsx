@@ -17,6 +17,17 @@ function BrokenScreenFun() {
     <>
       {/* Broken screen placeholder */}
       <img
+        src="https://fairydust.reisen/logo.svg"
+        style={{
+          zIndex: 999,
+          position: 'absolute',
+          top: 0,
+          left: 'calc(100%/4)',
+          width: 'calc(100%/4)',
+          height: 'calc(100%/4)'
+        }}
+      />
+      <img
         src="https://wiki.vspace.one/lib/exe/fetch.php?cache=&media=verein:logo_vspaceone.png"
         style={{
           zIndex: 999,
@@ -106,6 +117,16 @@ export default function Home() {
           <br />
           <br />
           <b>Wanna share your bot code? Upload to Github with #gpn-tron</b>
+          <br />
+          <br />
+          Original for GPN21 by freehuntx: https://github.com/freehuntx/gpn-tron
+          <br />
+          Modifyed & Hosted for IGER2023 by Nikolai. Conntact for Questions ^^
+          <br />
+          Matrix: @nikolai.vspace.one:matrix.org
+          <br />
+          Telegram: @NikolaiMu
+
         </div>
         {/* ConnectionInfo */}
         <div style={{
