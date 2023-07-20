@@ -16,6 +16,7 @@ function BrokenScreenFun() {
   return (
     <>
       {/* Broken screen placeholder */}
+      <div>
       <img
         src="https://fairydust.reisen/logo.svg"
         style={{
@@ -27,6 +28,8 @@ function BrokenScreenFun() {
           height: 'calc(100%/4)'
         }}
       />
+      </div>
+      <div>
       <img
         src="https://wiki.vspace.one/lib/exe/fetch.php?cache=&media=verein:logo_vspaceone.png"
         style={{
@@ -38,6 +41,7 @@ function BrokenScreenFun() {
           height: 'calc(100%/4)'
         }}
       />
+      </div>
     </>
   )
 }
