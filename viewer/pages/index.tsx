@@ -92,7 +92,7 @@ export default function Home() {
   if (!active || !gameService.game) return null
   return (
     <>
-      {/* <BrokenScreenFun /> */}
+      <BrokenScreenFun />
       <div style={{ height: '100%', width: '100%', position: 'relative' }}>
         {/* Infobox */}
         <div style={{
@@ -113,7 +113,6 @@ export default function Home() {
           Original for GPN21 by freehuntx: https://github.com/freehuntx/gpn-tron
           <br />
           Modifyed & Hosted for IGER2023 by Nikolai. Conntact for Questions ^^
-          <br />
           <br />
           Matrix: @nikolai.vspace.one:matrix.org
           <br />
