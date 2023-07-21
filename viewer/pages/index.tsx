@@ -107,10 +107,7 @@ export default function Home() {
           You can also watch the current game via the viewer port.
           <br />
           <br />
-          <b>Wanna share your bot code? Upload to Github with #gpn-tron</b>
-          <br />
-          <br />
-          Original for GPN21 by freehuntx: https://github.com/freehuntx/gpn-tron
+          Original for GPN21 by freehuntx.
           <br />
           Modifyed & Hosted for IGER2023 by Nikolai. Conntact for Questions ^^
           <br />
